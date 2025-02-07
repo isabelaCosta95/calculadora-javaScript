@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fundo {
+    background-color: rgb(234, 217, 241);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    color: black;
+}
+
+.botao, .botao-altura, .botao-largura{
+    width: 50px;
+    height: 50px;
+    color: rgb(17, 3, 15);
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: rgb(234, 217, 241);
+    border: none;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.botao-altura{
+    height: 106px;
+}
+
+.botao-largura{
+    width: 106px;
+}
+
+.botao:hover, .botao-altura:hover, .botao-largura:hover{
+    background-color: rgb(219, 189, 229);
+    transform: scale(1.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+.diferent-color{
+    background-color: rgb(219, 189, 229);
+}
+
+#resultado {
+    width: 225px;
+    height: 130px;
+    display: flex;
+    align-items: end;
+    margin: 5px;
+    font-size: 35px;
+    font-weight: 100;
+    background-color: rgb(205, 218, 241);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
